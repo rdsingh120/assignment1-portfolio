@@ -8,14 +8,14 @@ const AboutPage = () => {
     <Container>
       <h1 className="text-xl text-center font-semibold mb-10">About Me</h1>
       <div className="flex flex-wrap items-center justify-center gap-8 mb-10">
-        <div className="img-container h-[320px] w-[250px]">
+        <div className="img-container h-[340px] w-[250px]">
           <img
             src={img}
             alt="img"
             className="w-full h-full object-cover object-[100%] rounded shadow-md"
           />
         </div>
-        <div className="max-w-xl max-w-[400px]">
+        <div className="max-w-xl max-w-[390px]">
           <p className="text-gray-800">
             Hello! My name is{' '}
             <span className="font-semibold">Ripudaman Singh</span>, and I’m
