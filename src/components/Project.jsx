@@ -1,4 +1,4 @@
-import Title from './Title'
+import { FaGithub } from 'react-icons/fa'
 
 const Project = () => {
   return (
@@ -23,7 +23,7 @@ const Project = () => {
           Live
         </button>
         <button className="bg-gray-800 px-10 py-1 text-white rounded-md">
-          GitHub
+          <FaGithub size={22} />
         </button>
       </div>
     </div>
