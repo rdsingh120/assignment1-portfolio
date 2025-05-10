@@ -9,7 +9,9 @@ const ProjectsPage = () => {
         <Title text="Projects" />
       </span>
 
-      <div className="projects-container">
+      <div className="flex flex-wrap gap-5 justify-center">
+        <Project />
+        <Project />
         <Project />
       </div>
     </Container>
