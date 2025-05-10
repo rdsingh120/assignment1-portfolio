@@ -11,7 +11,7 @@ const Navbar = () => {
         className="nav-links-container flex flex-wrap justify-center gap-12 
       bg-black text-[#f9f9f9] text-xl font-semibold py-3"
       >
-        <Link to="/">Home</Link>
+        <Link className='tracking-widest' to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/services">Services</Link>

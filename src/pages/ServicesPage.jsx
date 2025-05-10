@@ -1,9 +1,12 @@
 import Container from '../components/Container'
+import Title from '../components/Title'
 
 const ServicesPage = () => {
   return (
     <Container>
-      <div>ServicesPage</div>
+      <span className="text-center">
+        <Title text="Services" />
+      </span>
     </Container>
   )
 }

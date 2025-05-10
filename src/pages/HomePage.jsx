@@ -1,15 +1,13 @@
-import Container from "../components/Container"
-import HR from "../components/HR"
+import Container from '../components/Container'
+import HR from '../components/HR'
 import { Link } from 'react-router-dom'
-
+import Title from '../components/Title'
 
 const HomePage = () => {
   return (
     <Container>
       <div className="mt-5">
-        <h1 className="text-xl font-semibold mb-5">
-          Welcome to My Portfolio!
-        </h1>
+        <Title text="Welcome to My Portfolio!" />
         <p className="text-gray-800">
           Thank you for stopping by. I’m thrilled to have you here! This space
           is a reflection of my journey, interests, and aspirations as a
@@ -20,7 +18,7 @@ const HomePage = () => {
 
         <HR />
 
-        <h1 className="text-xl font-semibold mb-5">Mission Statement</h1>
+        <Title text="Mission Statement" />
         <p className="text-gray-800">
           My mission is to continuously grow as a software engineer by embracing
           challenges, building impactful solutions, and sharing knowledge along
@@ -30,7 +28,7 @@ const HomePage = () => {
 
         <HR />
 
-        <h1 className="text-xl font-semibold mb-5">Explore More</h1>
+        <Title text="Explore More" />
         <div className="flex flex-col">
           <Link className="hover:text-blue-500" to="/about">
             🔗 Learn more about me

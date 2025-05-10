@@ -2,11 +2,14 @@ import Container from '../components/Container'
 import img from '../assets/img.jpg'
 import { Link } from 'react-router-dom'
 import HR from '../components/HR'
+import Title from '../components/Title'
 
 const AboutPage = () => {
   return (
     <Container>
-      <h1 className="text-xl text-center font-semibold mb-10">About Me</h1>
+      <span className="text-center">
+        <Title text="About Me" />
+      </span>
       <div className="flex flex-wrap items-center justify-center gap-8 mb-10">
         <div className="img-container h-[340px] w-[250px]">
           <img
@@ -33,7 +36,7 @@ const AboutPage = () => {
 
       <HR />
 
-      <h1 className="text-xl font-semibold mb-5">Explore More</h1>
+      <Title text="Explore More" />
       <div className="flex flex-col">
         <Link
           className="hover:text-blue-500"
