@@ -1,9 +1,12 @@
 import Container from '../components/Container'
+import Title from '../components/Title'
 
 const ContactPage = () => {
   return (
     <Container>
-      <div>ContactPage</div>
+      <span className='text-center'>
+        <Title text="Contact Me"/>
+      </span>
     </Container>
   )
 }
