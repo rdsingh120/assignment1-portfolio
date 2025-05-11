@@ -18,7 +18,7 @@ const AboutPage = () => {
             className="w-full h-full object-cover object-[100%] rounded shadow-md"
           />
         </div>
-        <div className="max-w-xl max-w-[380px]">
+        <div className="max-w-[420px]">
           <p className="text-gray-800">
             Hello! My name is{' '}
             <span className="font-semibold">Ripudaman Singh</span>, and I’m
