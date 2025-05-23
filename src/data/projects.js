@@ -25,3 +25,8 @@ export const projects = [
     repo: 'https://github.com/rdsingh120/Vanilla-JS-Projects',
   },
 ]
+
+// File Name: projects.js
+// Name: Ripudaman Singh 
+// Student Number: 301371452
+// Date: May 23, 2024

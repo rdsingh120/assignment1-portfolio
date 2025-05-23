@@ -24,3 +24,9 @@ const App = () => {
   )
 }
 export default App
+
+
+// File Name: App.jsx
+// Name: Ripudaman Singh 
+// Student Number: 301371452
+// Date: May 23, 2024

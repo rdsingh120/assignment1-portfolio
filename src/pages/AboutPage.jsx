@@ -58,3 +58,9 @@ const AboutPage = () => {
   )
 }
 export default AboutPage
+
+
+// File Name: AboutPage.jsx
+// Name: Ripudaman Singh 
+// Student Number: 301371452
+// Date: May 23, 2024

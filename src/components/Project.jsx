@@ -30,3 +30,8 @@ const Project = ({ image, title, desc, live, repo }) => {
   )
 }
 export default Project
+
+// File Name: Project.jsx
+// Name: Ripudaman Singh 
+// Student Number: 301371452
+// Date: May 23, 2024

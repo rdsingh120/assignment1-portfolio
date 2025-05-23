@@ -20,3 +20,9 @@ export const services = [
     desc: 'I help diagnose issues, optimize performance, and clean up messy code to make your applications more maintainable and efficient.',
   },
 ]
+
+
+// File Name: services.js
+// Name: Ripudaman Singh 
+// Student Number: 301371452
+// Date: May 23, 2024

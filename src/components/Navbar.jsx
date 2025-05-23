@@ -21,3 +21,8 @@ const Navbar = () => {
   )
 }
 export default Navbar
+
+// File Name: Navbar.jsx
+// Name: Ripudaman Singh 
+// Student Number: 301371452
+// Date: May 23, 2024
